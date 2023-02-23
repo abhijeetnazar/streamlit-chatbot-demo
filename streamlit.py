@@ -36,7 +36,7 @@ def get_response(question:str):
   return result
 
 st.header("Streamlit Chat - Demo")
-st.markdown("[Github](https://github.com/ai-yash/st-chat)")
+st.markdown("[Github](https://github.com/abhijeetnazar/streamlit-chatbot-demo)")
 
 def get_text():
     input_text = st.text_input("You: ","Hello, how are you?", key="input")
