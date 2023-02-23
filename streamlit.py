@@ -19,9 +19,10 @@ chain = load_qa_with_sources_chain(OpenAI(temperature=0))
 
 
 st.set_page_config(
-    page_title="Streamlit Chat - Demo",
+    page_title="Streamlit Chat - ToolsQA",
     page_icon=":robot:"
 )
+st.markdown ("This chatbot is used to answer questions for **ToolsQA.com** and available courses and modules.")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
