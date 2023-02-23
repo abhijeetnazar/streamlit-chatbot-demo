@@ -15,7 +15,7 @@ with open("course.pkl", "rb") as f:
     store = pickle.load(f)
 index = faiss.read_index("course.index")
 store.index = index
-chain = load_qa_with_sources_chain(OpenAI(temperature=0))
+chain = load_qa_with_sources_chain(OpenAI(temperature=0,model_name="text-babbage-001"))
 
 
 st.set_page_config(
@@ -32,7 +32,7 @@ if 'past' not in st.session_state:
 
 def get_response(question:str):
   result = chain({"input_documents": store.similarity_search(question, k=4),"question": question,},return_only_outputs=True,)["output_text"]
-  result = result.replace("SOURCES: toolsqa/course.md","")
+  # result = result.replace("SOURCES: toolsqa/course.md","")
   return result
 
 st.header("Streamlit Chat - ToolsQA")
