@@ -8,7 +8,9 @@ import pickle
 
 
 # Here we load in the data in the format that Notion exports it in.
+# ps = list(Path("Notion_DB/").glob("**/*.md"))
 ps = list(Path("toolsqa/").glob("*.md"))
+print(ps)
 
 data = []
 sources = []
@@ -19,7 +21,7 @@ for p in ps:
 
 # Here we split the documents, as needed, into smaller chunks.
 # We do this due to the context limits of the LLMs.
-text_splitter = CharacterTextSplitter(chunk_size=1500, separator="\n")
+text_splitter = CharacterTextSplitter(chunk_size=1024, separator="\n")
 docs = []
 metadatas = []
 for i, d in enumerate(data):

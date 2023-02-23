@@ -18,10 +18,11 @@ with open("course.pkl", "rb") as f:
 
 store.index = index
 
-chain = load_qa_with_sources_chain(OpenAI(temperature=0,model_name="text-babbage-001"),chain_type="refine")
+chain = load_qa_with_sources_chain(OpenAI(temperature=0),chain_type="refine")
 result = chain({"input_documents": store.similarity_search(args.question, k=4),"question": args.question,},return_only_outputs=True,)["output_text"]
 
 print(result)
+
 # chain = VectorDBQAWithSourcesChain.from_llm(llm=OpenAI(temperature=0), vectorstore=store)
 # result = chain({"question": args.question})
 # print(f"Answer: {result['answer']}")
