@@ -9,8 +9,8 @@ from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 import pickle
 import argparse
 
+os.environ("OPENAI_API_KEY") = str(st.secrets["OPENAI_API_KEY"])
 
-# openai.api_key =  os.getenv('OPENAI_API_KEY')
 with open("course.pkl", "rb") as f:
     store = pickle.load(f)
 index = faiss.read_index("course.index")
