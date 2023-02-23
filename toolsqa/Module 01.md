@@ -1,0 +1,2 @@
+Module 1 Java Introduction
+In this module, you will learn about the basic concepts of JAVA programming. Selenium Webdriver is a tool which can be used only with the programming language, which makes it very necessary for an individual to learn Java Programming language. Sound scary! Don’t worry, this is why we have designed this course such a way that first we teach you Java and once you get comfortable with it, we will move forward with Selenium WebDriver.

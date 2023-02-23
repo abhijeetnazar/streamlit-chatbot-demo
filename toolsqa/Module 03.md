@@ -1,0 +1,2 @@
+Module 3 Selenium WebDriver Intermediate
+At times the element is a bit tricky to locate on a webpage. To master the technique it is very much necessary to learn effective ways to find webelments. Here we cover the different Element Locator Dev tools which will make your life easy in automation testing. There are also few operations which are tricky to perform in Selenium like mouse double click or Drag & Drop. We will learn the use of Actions class to perform different actions.

@@ -1,0 +1,2 @@
+Do you cover Selenium Grid?
+Unfortunately our Selenium Automation Testing Online Training course does not cover Selenium Grid. However, we do provide preprecorded videos for Selenium Grid and other related topics such as Git, PostMan, Rest Assured, Advance CSS & XPath Strategy, Keyword Driven Framework and Cucumber. These videos can be accessed for free and provide an extra resource to complement the content available during the course.

@@ -1,0 +1,2 @@
+I have basic knowledge of programming; can I learn Selenium?
+Good Question! Our Selenium course is designed to accommodate beginners and those with a basic knowledge of programming. We start off with a review of basic Java concepts and then move on to more advanced topics such as automation frameworks and debugging. Plus, our experienced instructors are always available to answer questions and provide guidance. You dont worry at all, our majority of the participants are beginners.

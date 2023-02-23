@@ -1,0 +1,2 @@
+Module 8 Framework (Logging, Reporting and Creating Utilities), Resume Preparation
+The most important feature of testing is Reporting. Without reporting, there is not much sense of automation. This module will have all the details of reporting. You will be using the Log4J library to generate logs and Extent reports for publishing reports. There are multiple utilities created in any framework. We will learn to create helper utilities like taking Screenshot etc.

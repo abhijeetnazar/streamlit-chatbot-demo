@@ -1,0 +1,2 @@
+Where i will do my practice?
+We've got you covered there. You'll be given access to our world class testing site, www.DemoQA.com, where you can put your Selenium skills to the test. There are plenty of elements to practice automation on and a user flow from front-end to backend API. So you'll be given the perfect opportunity to really hone your automation skills and become a pro at using Selenium!
