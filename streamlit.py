@@ -22,7 +22,6 @@ st.set_page_config(
     page_title="Streamlit Chat - ToolsQA",
     page_icon=":robot:"
 )
-st.markdown ("This chatbot is used to answer questions for **ToolsQA.com** and available courses and modules.")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
@@ -36,8 +35,9 @@ def get_response(question:str):
   result = result.replace("SOURCES: toolsqa/course.md","")
   return result
 
-st.header("Streamlit Chat - Demo")
+st.header("Streamlit Chat - ToolsQA")
 st.markdown("[Github](https://github.com/abhijeetnazar/streamlit-chatbot-demo)")
+st.markdown ("This chatbot is used to answer questions for **ToolsQA.com** and available courses and modules.")
 
 def get_text():
     input_text = st.text_input("You: ","Hello, how are you?", key="input")
